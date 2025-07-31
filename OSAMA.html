@@ -1,0 +1,185 @@
+<!DOCTYPE html> <!-- لاعلام المتصفح باصدار لغه html-->
+<html> <!--يتم وضعه كاول وسم-->
+<head><!--يحتوي اعدادات الملفات والموقع المسؤول عن عرض الوقع-->
+<title>lap</title>
+    <body>     <!--جسم الصفحه-->
+        <div class="test"></div>
+        <img src=".img/test.jpg"/>
+        <a href="http://brazil.com">link</a> <!--موقع في النت -->
+        <h1>osama 1</h1>
+        <h2>osama 2</h2>
+        <h3>osama 3</h3>
+        <h4>osama 4</h4>
+        <h5>osama 5</h5>
+        <h6>osama 6</h6>
+        <!--طريقه كتابه syntax-->
+        <meta name="description">
+        <meta content="my first website">
+        <meta content='my first website'>
+        <h1
+        style="
+        color: rosybrown;">
+        Book
+        Store
+        </h1>
+        <h1 style="color: burlywood;">Book Store </h1>
+
+        <!--الفقرات النصيه Paragraph-->
+        <!--P يستخدم لكتابه الفقرات النصيه ويعطي تنسقات افتراضيه -->
+        <p>lorem ipsum dolor sit amet consectetur adipisicing elit perferendis .</p>
+        <p>lorem , ipsum dolor .</p>
+        <p>
+            lorem ipsum dolor sit amet consectetur adipisicing elit .
+            consectetur, exercitationem eos! Excepturi ,
+            ratione! Adipisci magni,
+            ipsa molestiae sint quos odio.
+        </p>
+        <!-- السمات Attributes -->
+         <!--Attributes سمات لاضافه وضائف وخصائص للعنصر -->
+         <!--global attributes سمات لاضافتها على جميع العناصر-->
+         <h1 class=""id="">Test </h1>
+         <!-- Element Attributes سمات مخصصه لناصر محدده فقط-->
+          <img src=""alt="">
+          <video scr=""></video>
+
+          <!-- عناصر التنسيق Formating Elements  قوم باضافه تنسيقات للنوصوص بدون لغه css -->
+           <p>This Our <b>Book Stor</b></p>   <!--نص سميك Bold -->
+           <p><strong>Book Store </strong></p> <!--نص سميك لنص المهمم جداً Strong-->
+           <p>Tis Our <i>Book Store </i></p>  <!--Ltalic نص مائل-->
+           <p>Created by: <em>Osaid Al-Mekhlafi</em></p>  <!-- نص مائل مع تبين الاهميه-->
+           <p>Tis our <u>Book Store </u></p><!--يقوم بتضليل النص-->
+           <p>Tis Our <small>Book Store</small></p>  <!--يصغر الخط -->
+           <p><del>100$</del>80$</p>  <!--يستخدم لعرض نص محذوف -->
+           <p>Tis Our <ins>Book Store </ins></p>  <!-- لاضافه نص تحت الخط-->
+           <p>H <sub>2</sub>O</p><!-- لعرض نص منخفض قليلاً-->
+           <p>3 <sup>4</sup>O</p>  <!--guvq hgkw fa;g lvjtu rgdghW-->
+
+
+            <!--الروابط links Anchor Tag-->
+            <!--a يستخدم لاضافه رابط-->
+            <a href="http://google.com" target="_blank" title="Go To Google">Google</a>
+            <!--ربط صفحه باخرى-->
+            <a href="#pare " title="Go To Paragraph">Paragraph</a>
+            <p id="para ">TEST Lorem ipsum dolor sit amet.</p>
+
+            <!--الصور lmage-->
+        <img src="/img/JujutsuKaisen.jpg" alt="Jujutsu Kaisen" title="img"> <!--استدعاء صوره-->
+        <img src="../JujutsuKaisen.jpg" alt=""><!--استدعاء صوره من خارج ملف المشروع-->
+        <img src="/img/JujutsuKaisen.jpg" alt="" width="150px" height="150px"><!--تغيور طول وعرض الصوره ويفضل استخدام css-->
+
+        <!--القوائم Lists-->
+        <ul>
+            <li>HTNL</li>
+            <li>css 
+                <ul>
+                    <li>Bootstrap</li>
+                </ul>
+            <!-- قائمه غير مرتبه-->
+                
+            
+        </ul>
+
+        <ol>   <!-- قائمه مرتبه من الاصغر الى الاكبر -->
+            <li>Test</li>
+            <li>Test</li>
+        </ol>
+
+
+        <dl>  <!--قائمه الوصف لكتابه المصطلحات ووصفها بطريقه منضمه-->
+            <dt>HTML</dt>
+            <dd>Hyper Text Markup Language</dd>
+            <dd>Lorem ipsum dolor sit </dd>
+            <dt>css</dt>
+            <dd>Cascading Style Sheets</dd>
+        
+        </dl>
+        
+
+        <ol start="5">  <!--- بدا الترتيب من قيمه محدده -->
+            <li>Name </li>
+            <li>Email</li>
+            <li>Country</li>
+
+        </ol>
+
+        <ol reversed type="A">  <!--تغير طريقه الترتيب باستخدام الاحرف -->
+            <li>name</li>
+            <li>Email</li>
+            <li>Country</li>
+        </ol>
+
+
+
+        <!--table الجداول -->
+        <table></table>
+        <thead>  <!--راس الجدول -->
+            <tr> <!-- صف الجدول -->
+                <!-- td => Table Cells خلايا الجدول -->
+                 <!--th=>Table Head cells خلايا راس الجدول -->
+                 <th> first</th>  <th>last</th>  <th>Mark</th>
+
+            </tr>
+        </thead>
+        <thead><!-- جسم الجدول -->
+            <tr>
+                <!--td => Table Cells خلايا الجدول -->
+                <td>Osaid </td> <td>AL-Mekhlafe</td> <td>22</td>
+            </tr>
+        </thead>
+
+        <tfoot>  <!-- الجزء السفلي للجدول-->
+            <tr>
+                <!--دمج خلايا الجدول -->
+                <td colspan="2">Total</td>  <td>100</td>
+            </tr>
+        </tfoot>
+        
+
+ 
+
+        <table>
+            <caption>Score This Month </caption><!--عنوان لوصف الجدول -->
+            <thead><!--راس الجدول -->
+                <tr><!-- صف الجدول -->
+                    <!-- th خلايا راس الجدول -->
+                    <th> First </th>  <th> Last </th> <th> Mark </th>
+                </tr>
+            </thead>
+            <tbody> <!---جسم الجدول -->
+                <tr>
+                    <!--خلايا الجدول -->
+                    <td> osama </td>
+                    <td> AL-Mekhlafe </td>
+                    <td> 40 </td>
+                </tr>  
+                <tr>
+                    <td>osama </td>
+                    <td>AL-MEKHLAFI</td>
+                    <td> 60 </td>
+                </tr>
+            </tbody>
+            <tfoot> <!-- الجزء السفلي للجدول-->
+                <tr>
+                    <!-- دمج خلايا الجدول -->
+                     <td colspan="2">Total</td>  <td>100</td>
+
+                </tr>
+
+            </tfoot>
+        </table>
+        <!--span ليس له تاثير على المحتوى الهدف منه تعديل طريقه ظهور بعض المحتوى الموضوع في فقرات كود css-->
+        <p>Lorem <span style="color: wheat;">ipsum </span> dolor sit amet</p>
+        <!--break يستخدم لاعلان نهايه الفصل الحالي والمحتوى الذي يوضع بعده على سطر منفرد-->
+        <p>Lorem ipsum dolor sit amet. <br/>adipisicing elit<br/>Quisquam quod.</p>
+        <!--Horizontal Rule يستخدم لاضافه خط افقي في الصفحه -->
+        <p>First Paragraph</p>
+        <hr><!--Horizontal Rule ,block Element-->
+        <p>Second Paragraph</p>
+
+
+    </body>
+</head>
+
+
+
+</html>
