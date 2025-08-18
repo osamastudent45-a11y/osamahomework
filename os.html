@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>osama</title>
+  <style>
+    input::placeholder, textarea::placeholder {
+      color: #aaa;
+      font-style: italic;
+    }
+
+    input, textarea, select {
+      margin-bottom: 10px;
+      display: block;
+    }
+
+    input[type="submit"] {
+      background-color: rgb(179, 192, 143);
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <form action="index.html" method="post" enctype="multipart/form-data">
+    <h1 style="color: rgb(179, 192, 143);">OSAMA KHALED SALEH AL-GHUFRI STORE</h1>
+
+    <!-- الاسم -->
+    <label for="name">الاسم:</label>
+    <input type="text" id="name" name="name" placeholder="اكتب اسمك هنا">
+
+    <!-- البريد الإلكتروني -->
+    <label for="email">البريد الإلكتروني:</label>
+    <input type="email" id="email" name="email" placeholder="ادخل بريدك هنا" oncopy="return false">
+
+    <!-- كلمة السر -->
+    <label for="password">كلمة السر:</label>
+    <input type="password" id="password" name="password" placeholder="اكتب كلمة السر" oncopy="return false">
+
+    <!-- الجنس -->
+    <label for="gender">الجنس:</label>
+    <select id="gender" name="gender">
+      <option value="">اختر الجنس</option>
+      <option value="male">ذكر</option>
+      <option value="female">أنثى</option>
+    </select>
+
+    <!-- مربع الحوار -->
+    <label for="dialog">مربع حوار إضافي:</label>
+    <textarea id="dialog" name="dialog" placeholder="اكتب هنا..."></textarea>
+
+    <!-- زر الإرسال -->
+    <input type="submit" value="إرسال">
+  </form>
+
+  <!-- رابط خارجي -->
+  <p>لمزيد من المعلومات يمكنك زيارة جوجل هنا:</p>
+  <a href="https://www.google.com" target="_blank">زيارة جوجل</a>
+  <h2>three skales i can do </h2>
+<ul>
+  <li>drive car</li>
+  <li>swimming</li>
+  <li>spiking english</li>
+</ul>
+</body>
+</html>
