@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>osaid</title>
+تكليف حق مربعين من خلفيه مع حشوه وحدود
+<style>
+    body {
+    background: #f4f4f4;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column
+    gap 40px;
+    padding: 40px;
+    align-items: center;
+    }
+
+    .box {
+    width: 300px;
+    height: 150px;
+    padding: 20px;
+    margin: 30px;
+    border: 5px solid black;
+    background-color: #90caf9;
+    color: #0d47a1;
+    font-size: 16px;
+    }
+
+    .content-box {
+    box-sizing: content-box;
+    }
+
+    .border-box {
+    box-sizing: border-box;
+    }
+
+    .label {
+    font-weight: bold;
+    margin-bottom: 10px;
+    }
+    body {
+    display: flex;
+flex-direction: column;
+    }
+</style>
+
+</head>
+<body>
+<h1>Box Model Comparison</h1>
+<br>
+
+<div>
+    <div class="label">content-box</div>
+    <div class="box content-box">
+    This box uses <strong>content-box</strong>.  
+    The width and height apply only to the content area.  
+    Padding and border are added outside.
+    </div>
+</div>
+<br>
+
+<div>
+    <div class="label">border-box</div>
+    <div class="box border-box">
+    This box uses <strong>border-box</strong>.  
+    The width and height include padding and border.  
+    So the total size stays fixed.
+    </div>
+</div>
+
+</body>
+</html>
