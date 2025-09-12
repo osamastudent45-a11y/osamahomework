@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> اسامه الغفري </title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center; 
+            align-items: center;    
+            flex-direction: column;  
+            background-color: #f5f5f5; 
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            color: blue;
+            font-size: 30px;
+            margin: 10px 0;
+        }
+        p {
+            color: gray;
+            font-size: 18px;
+            margin: 10px 0;
+        }
+        button {
+            background-color: green;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+        button:hover {
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <h1>التكليف 1 في ال CSS  </h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo, aliquam?  .</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <hr>
+    <br>
+    <h2>the secend</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+    <p> السلام عليكم ورحمة الله وبركاته:)></p>
+    <button> inter here</button>
+</body>
+</html>
