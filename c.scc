@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CV HW osama </title>
+<style>
+    * {
+    box-sizing: border-box;
+    }
+    body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+    }
+    h1, h2 {
+    margin: 0 0 10px;
+    }
+    .cv {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    max-width: 900px;
+    margin-inline: auto;
+    }
+    .cv__header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    }
+    .cv__image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    }
+    .cv__info {
+    flex: 1;
+    }
+    .cv__name {
+    font-size: 28px;
+    margin-bottom: 5px;
+    }
+    .cv__title {
+    color: #666;
+    }
+    .cv__skills ul {
+    padding-left: 20px;
+    margin-top: 10px;
+    }
+    .card {
+    display: flex;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    max-width: 900px;
+    margin-inline: auto;
+    }
+    .card__image {
+    width: 40%;
+    object-fit: cover;
+    }
+    .card__content {
+    padding: 20px;
+    flex: 1;
+    }
+    .card__title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    }
+    .card__text {
+    color: #555;
+    line-height: 1.6;
+    }
+    @media (max-width: 700px) {
+    .cv__header {
+        flex-direction: column;
+        text-align: center;
+    }
+    .cv__image {
+        margin-bottom: 10px;
+    }
+    .card {
+        flex-direction: column;
+    }
+    .card__image {
+        width: 100%;
+        height: 200px;
+    }
+    }
+</style>
+</head>
+<body>
+<section class="cv">
+    <div class="cv__header">
+    <img src="II.png" alt="صورة شخصية" class="cv__image">
+    <div class="cv__info">
+        <h1 class="cv__name"> OSAID</h1>
+        <p class="cv__title">  طالب واجهات اماميه</p>
+    </div>
+    </div>
+    <div class="cv__skills">
+    <h2>المهارات</h2>
+    <ul>
+        <li>HTML / CSS</li>
+        <li>JavaScript</li>
+        <li>React</li>
+        <li>Git & GitHub</li>
+    </ul>
+    </div>
+</section>
+<section class="card">
+    <img src="II.png" alt="صورة توضيحية" class="card__image">
+    <div class="card__content">
+    <h2 class="card__title"> حبيبي انت وينك من زمان </h2>
+    <p class="card__text"><b>
+    انا قدلي مارعيلك سنين
+    </b></p>
+    </div>
+</section>
+</body>
+</html>
