@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title><osaid</title>
+<style>
+    ul {
+    list-style: none;
+    padding: 0;
+    }
+    ul li {
+    color: black;
+    font-size: 18px;
+    padding: 5px 0;
+    cursor: pointer;
+    }
+    ul li:hover {
+    color: blue;
+    }
+    .box {
+    background-color: #f0f8ff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 18px;
+    position: relative;
+    }
+    .box::before {
+    content: "⭐";
+    margin-left: 8px;
+    color: gold;
+    }
+</style>
+</head>
+<body>
+<h1>List and Box </h1>
+<ul>
+    <li><b> Home</b></li>
+    <li>Info</li>
+    <li>New</li>
+    <li>Close</li>
+    <li>Settings</li>
+</ul>
+<br>
+<div class="center">
+<div class="box">
+    the box with star in it
+</div>
+</div>
+</body>
+</html>
