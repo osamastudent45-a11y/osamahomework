@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>osaid</title>
+<!--تكليف 3 صناديق بايتخدام Flexbox Layout وتتغير الحجم عندما تصبح الصفحه اقل من 900 لم يقبل في صفحتي اقل من 700 -->
+<style>
+    * {
+    box-sizing: border-box;
+    }
+    body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    }
+    .section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+    }
+    .box {
+    flex: 1;
+    background-color: #056a77;
+    color: white;
+    padding: 40px;
+    text-align: center;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    }
+    @media (max-width: 900px) {
+    .section {
+        flex-direction: column;
+    }
+    }
+</style>
+</head>
+<body>
+<div class="section">
+    <div class="box">* الصندوق الأول</div>
+    <div class="box">*  الثاني // </div>
+    <div class="box">*   ثالث  // </div>
+</div>
+</body>
+</html>
